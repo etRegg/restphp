@@ -1,0 +1,7 @@
+client_v3:
+    resource: Regg\Bundle\ClientBundle\Controller\LoginReggController
+    type: annotation
+
+client_v1:
+    resource: Regg\Bundle\ClientBundle\Controller\DefaultController
+    type: rest

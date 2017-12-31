@@ -1,0 +1,6 @@
+regg_v2:
+    resource: "@ReggClientBundle/Resources/config/routing.yml"
+    prefix:   /v2
+regg_client:
+    resource: "@ReggClientBundle/Resources/config/routing2.yml"
+

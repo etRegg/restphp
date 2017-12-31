@@ -1,0 +1,26 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Login to Client Service by REGG{% endblock %}
+
+
+
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/dist/css/bootstrap.min.css') }}">
+{% endblock %}
+
+{% block body %}
+    <h1>Access to REGG System for administration Client</h1>
+
+    <h2 class="text-center text-muted">Login</h2><hr>
+    {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+
+    <div class="col-md-6 col-md-offset-3">
+        {{ form_widget(form) }}
+        {{ form_errors(form) }}
+    </div>
+
+    {{ form_end(form) }}
+
+{% endblock %}

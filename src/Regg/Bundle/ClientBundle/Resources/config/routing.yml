@@ -1,0 +1,4 @@
+client_v2:
+    resource: Regg\Bundle\ClientBundle\Controller\ApiController
+    type: rest
+    

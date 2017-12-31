@@ -1,0 +1,18 @@
+services:
+  user_regg.user_service:
+        class: Regg\Bundle\ClientBundle\Service\UserService
+        arguments:
+            - '@doctrine'
+            - '@form.factory'
+  client_regg.user_service:
+        class: Regg\Bundle\ClientBundle\Service\ClientService
+        arguments:
+            - '@doctrine'
+            - '@form.factory'
+
+  token_authenticator.user_provider_regg:
+        class: Regg\Bundle\ClientBundle\Security\TokenAuthenticator
+        arguments:
+            - '@doctrine'
+
+           
