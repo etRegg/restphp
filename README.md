@@ -11,3 +11,9 @@ This project is a draft. Some functionalities do not work.
  
  
  REGG.31 december of 2017
+ 
+ 
+ Rest project
+ ============
+ 
+ #### it not configurated, refer to the page of Fos Rest
