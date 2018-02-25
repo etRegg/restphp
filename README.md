@@ -17,3 +17,5 @@ This project is a draft. Some functionalities do not work.
  ============
  
  #### it not configurated, refer to the page of Fos Rest
+ 
+ #### disable the security configs
